@@ -7,7 +7,7 @@ License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/bugzilla/%{name}.html.tar.gz
 # Source0-md5:	634db96c1cfccdc2bca670de2e47ef00
-URL:		http://www.tldp.org/LDP/bugzilla/%{name}/index.html
+URL:		http://www.tldp.org/LDP/bugzilla/Bugzilla-Guide/index.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
