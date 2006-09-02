@@ -8,6 +8,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/bugzilla/%{name}.html.tar.gz
 # Source0-md5:	634db96c1cfccdc2bca670de2e47ef00
 URL:		http://www.tldp.org/LDP/bugzilla/Bugzilla-Guide/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,7 +28,6 @@ b³êdów Bugzilla.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
 cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
