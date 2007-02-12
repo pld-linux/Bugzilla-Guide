@@ -1,5 +1,5 @@
 Summary:	LDP Bugzilla Guide
-Summary(pl):	Podrêcznik do Bugzilli
+Summary(pl.UTF-8):   PodrÄ™cznik do Bugzilli
 Name:		Bugzilla-Guide
 Version:	2.14
 Release:	1
@@ -17,10 +17,10 @@ This document is intended to be the comprehensive guide to the
 installation, administration, maintenance, and use of the Bugzilla
 bug-tracking system.
 
-%description -l pl
-Ten dokument ma byæ, w za³o¿eniach, wszechstronnym podrêcznikiem
-instalacji, administracji, zarz±dzania i u¿ywania systemu ¶ledzenia
-b³êdów Bugzilla.
+%description -l pl.UTF-8
+Ten dokument ma byÄ‡, w zaÅ‚oÅ¼eniach, wszechstronnym podrÄ™cznikiem
+instalacji, administracji, zarzÄ…dzania i uÅ¼ywania systemu Å›ledzenia
+bÅ‚Ä™dÃ³w Bugzilla.
 
 %prep
 %setup -q -n %{name}
