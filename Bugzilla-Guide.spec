@@ -1,5 +1,5 @@
 Summary:	LDP Bugzilla Guide
-Summary(pl.UTF-8):   Podręcznik do Bugzilli
+Summary(pl.UTF-8):	Podręcznik do Bugzilli
 Name:		Bugzilla-Guide
 Version:	2.14
 Release:	1
